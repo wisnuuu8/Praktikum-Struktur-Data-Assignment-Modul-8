@@ -5,7 +5,7 @@
 **LATAR BELAKANG**
 
 ### Priority Queue
-**Priority Queue** adalah struktur data yang mirip dengan queue atau antrian biasa, tetapi setiap elemen memiliki "prioritas". Elemen dengan prioritas lebih tinggi akan dilayani lebih dulu dibandingkan elemen dengan prioritas lebih rendah, tanpa memperhatikan urutan kedatangan. Dua operasi utama yang dilakukan pada priority queue adalah:
+**Priority Queue** adalah struktur data yang mirip dengan queue atau antrian biasa, tetapi setiap elemen memiliki "prioritas". Elemen dengan prioritas lebih tinggi akan dilayani lebih dulu dibandingkan elemen dengan prioritas lebih rendah, tanpa memperhatikan urutan kedatangan[1]. Dua operasi utama yang dilakukan pada priority queue adalah:
 1. **Enqueue (Insert)**: Menambahkan elemen ke dalam antrian dengan prioritas tertentu.
 2. **Dequeue (Remove)**: Menghapus elemen dengan prioritas tertinggi dari antrian.
 
@@ -23,7 +23,7 @@ Ciri-ciri utama heap:
 Heap banyak digunakan untuk mengimplementasikan priority queue karena operasi insert dan delete-min/max dapat dilakukan dengan efisien dalam O(log n) waktu.
 
 ### Hubungan Priority Queue dan Heaps
-Heap sering digunakan untuk mengimplementasikan priority queue karena struktur heap memungkinkan operasi insert dan delete yang efisien. Dalam kasus priority queue yang diimplementasikan dengan min-heap, elemen dengan prioritas tertinggi (nilai terkecil) selalu berada di root dan dapat dihapus dengan cepat. Sebaliknya, dalam max-heap, elemen dengan prioritas tertinggi (nilai terbesar) yang berada di root bisa dihapus dengan cepat.
+Heap sering digunakan untuk mengimplementasikan priority queue karena struktur heap memungkinkan operasi insert dan delete yang efisien. Dalam kasus priority queue yang diimplementasikan dengan min-heap, elemen dengan prioritas tertinggi (nilai terkecil) selalu berada di root dan dapat dihapus dengan cepat[2]. Sebaliknya, dalam max-heap, elemen dengan prioritas tertinggi (nilai terbesar) yang berada di root bisa dihapus dengan cepat.
 
 **RUMUSAN MASALAH**
 
@@ -49,7 +49,7 @@ contoh kasus nyata
 
 **DASAR TEORI**
 
-Priority Queue adalah jenis antrian yang mengatur elemen berdasarkan nilai prioritasnya, di mana elemen dengan prioritas lebih tinggi akan diambil lebih dulu dibandingkan elemen dengan prioritas lebih rendah. Setiap elemen dalam priority queue memiliki nilai prioritas yang menentukan posisinya dalam antrian. Terdapat berbagai metode untuk mengimplementasikan priority queue, seperti menggunakan array, linked list, heap, atau binary search tree, masing-masing dengan kelebihan dan kekurangannya. Priority queue sering digunakan dalam sistem real-time dan algoritma yang memerlukan efisiensi tinggi, seperti algoritma Dijkstra dan pencarian jalur A*.
+Priority Queue adalah jenis antrian yang mengatur elemen berdasarkan nilai prioritasnya, di mana elemen dengan prioritas lebih tinggi akan diambil lebih dulu dibandingkan elemen dengan prioritas lebih rendah. Setiap elemen dalam priority queue memiliki nilai prioritas yang menentukan posisinya dalam antrian. Terdapat berbagai metode untuk mengimplementasikan priority queue, seperti menggunakan array, linked list, heap, atau binary search tree, masing-masing dengan kelebihan dan kekurangannya[3]. Priority queue sering digunakan dalam sistem real-time dan algoritma yang memerlukan efisiensi tinggi, seperti algoritma Dijkstra dan pencarian jalur A*.
 
 Heap adalah struktur data berbasis pohon biner dengan dua aturan utama:
 
@@ -660,3 +660,10 @@ Press any key to continue . . .
 ```
 
 **DAFTAR PUSTAKA**
+
+Aryandi, J. A., Nugraha, M. A., Basith, Y. A. A., Pratama, M. F., Pradeka, D., & Anggraini, D. (2023). Implementasi Algoritma Queue untuk Menentukan Prioritas Pelayanan Umum di Rumah Sakit. JIKO (Jurnal Informatika Dan Komputer), 7(2), 218. https://doi.org/10.26798/jiko.v7i2.806
+
+Science, S., Cui, S., Wang, Z., & Yang, L. (n.d.). SpringerBriefs in Service Science Service Operations SpringerBriefs in Service Science.
+
+Nurcholis, A., Batara N, S., & Octamanullah, M. (1959). Penerapan struktur data Heap Priority Queue pada algoritma Djikstra untuk mendapatkan kompleksitas O((n + m)log n). 1–4.
+
